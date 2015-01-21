@@ -59,5 +59,6 @@ install_dmg "Hiera" "${HIERA_PACKAGE_URL}"
 install_dmg "Puppet" "${PUPPET_PACKAGE_URL}"
 
 # Hide all users from the loginwindow with uid below 500, which will include the puppet user
+echo "Hiding the puppet user from the login window..."
 defaults write /Library/Preferences/com.apple.loginwindow Hide500Users -bool YES
 
