@@ -12,7 +12,7 @@ set -e
 #--------------------------------------------------------------------
 # Modifiable variables, please set them via environmental variables.
 #--------------------------------------------------------------------
-FACTER_PACKAGE_URL=${FACTER_PACKAGE_URL:-"http://downloads.puppetlabs.com/mac/facter-2.3.0.dmg"}
+FACTER_PACKAGE_URL=${FACTER_PACKAGE_URL:-"http://downloads.puppetlabs.com/mac/facter-2.4.1.dmg"}
 HIERA_PACKAGE_URL=${HIERA_PACKAGE_URL:-"http://puppetlabs.com/downloads/mac/hiera-1.3.4.dmg"}
 PUPPET_PACKAGE_URL=${PUPPET_PACKAGE_URL:-"http://puppetlabs.com/downloads/mac/puppet-latest.dmg"}
 
